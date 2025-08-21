@@ -1504,17 +1504,15 @@ graph TB
 | **Python** | 3.7+ | 3.9+ | 3.11+ |
 
 ### 📊 Performance Benchmarks
-
-```mermaid
+```
 xychart-beta
     title "Processing Performance by Account Size"
     x-axis "Account Size (Posts)" ["1K", "5K", "10K", "25K", "50K", "100K"]
-    y-axis "Time (Minutes)" 0 300
+    y-axis "Time (Minutes)" 0 --> 300
     bar "Post Extraction" [15, 45, 90, 180, 300, 450]
     bar "Comment Extraction" [30, 120, 240, 480, 720, 1200]
     bar "Organization" [1, 2, 3, 5, 8, 15]
 ```
-
 ### 🔄 API Rate Limits
 
 | Operation Type | Limit | Reset Period | Strategy |
