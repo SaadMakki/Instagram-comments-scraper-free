@@ -291,8 +291,8 @@ FileNotFoundError: accounts.csv
 3. **Archiving**: Backup organized folders for long-term storage
 4. **Distribution**: Share specific user folders with team members
 
+----
+Author: Saad Makki\
+Email: saadmakki116@gmail.com
 ---
-
-## 🎯 Use Cases
-
-### Research
+**[⬅️ Back to Main README](../README.md)**

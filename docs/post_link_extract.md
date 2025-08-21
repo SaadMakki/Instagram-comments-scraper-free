@@ -208,6 +208,8 @@ After successful completion:
 3. Proceed to **comments_extract.py** for comment extraction
 4. Use **organize.py** to structure files into folders
 
+----
+Author: Saad Makki\
+Email: saadmakki116@gmail.com
 ---
-
 **[⬅️ Back to Main README](../README.md)**

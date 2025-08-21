@@ -268,7 +268,9 @@ except Exception as e:
 - **organize.py** → Structures comment files into folders
 - **Data analysis** → CSV format ready for pandas/Excel
 - **Further processing** → Can be input for sentiment analysis
-
+---
+Author: Saad Makki\
+Email: saadmakki116@gmail.com
 ---
 
 **[⬅️ Back to Main README](../README.md)**
