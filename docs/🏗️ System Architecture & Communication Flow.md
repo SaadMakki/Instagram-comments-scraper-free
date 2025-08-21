@@ -1376,26 +1376,20 @@ graph TB
 
 ```mermaid
 graph LR
-    subgraph "CPU Optimization"
-        A[⚡ Multi-processing<br/>Parallel execution]
-        B[🔄 Async Operations<br/>Non-blocking I/O]
-        C[📦 Batch Processing<br/>Efficient algorithms]
-        D[🎯 Code Profiling<br/>Bottleneck identification]
-    end
+    A[CPU: Multi-processing]
+    B[CPU: Async Operations]
+    C[CPU: Batch Processing]
+    D[CPU: Code Profiling]
     
-    subgraph "Memory Optimization"
-        E[📊 Streaming Processing<br/>Minimize RAM usage]
-        F[♻️ Object Pooling<br/>Reduce allocations]
-        G[🧹 Garbage Collection<br/>Memory cleanup]
-        H[📈 Memory Monitoring<br/>Usage tracking]
-    end
+    E[Memory: Streaming]
+    F[Memory: Object Pooling]
+    G[Memory: Garbage Collection]
+    H[Memory: Monitoring]
     
-    subgraph "I/O Optimization"
-        I[💾 Buffered Writing<br/>Reduce disk ops]
-        J[🔗 Connection Pooling<br/>Reuse connections]
-        K[📦 Data Compression<br/>Efficient storage]
-        L[⚡ SSD Storage<br/>Fast access times]
-    end
+    I[I/O: Buffered Writing]
+    J[I/O: Connection Pooling]
+    K[I/O: Data Compression]
+    L[I/O: SSD Storage]
     
     A --> E
     B --> F
@@ -1406,8 +1400,6 @@ graph LR
     F --> J
     G --> K
     H --> L
-    
-    
 ```
 
 ---
