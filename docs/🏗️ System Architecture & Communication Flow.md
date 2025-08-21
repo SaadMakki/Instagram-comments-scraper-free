@@ -1376,20 +1376,26 @@ graph TB
 
 ```mermaid
 graph LR
-    A[CPU: Multi-processing]
-    B[CPU: Async Operations]
-    C[CPU: Batch Processing]
-    D[CPU: Code Profiling]
+    subgraph "CPU Optimization"
+        A[⚡ Multi-processing<br/>Parallel execution]
+        B[🔄 Async Operations<br/>Non-blocking I/O]
+        C[📦 Batch Processing<br/>Efficient algorithms]
+        D[🎯 Code Profiling<br/>Bottleneck identification]
+    end
     
-    E[Memory: Streaming]
-    F[Memory: Object Pooling]
-    G[Memory: Garbage Collection]
-    H[Memory: Monitoring]
+    subgraph "Memory Optimization"
+        E[📊 Streaming Processing<br/>Minimize RAM usage]
+        F[♻️ Object Pooling<br/>Reduce allocations]
+        G[🧹 Garbage Collection<br/>Memory cleanup]
+        H[📈 Memory Monitoring<br/>Usage tracking]
+    end
     
-    I[I/O: Buffered Writing]
-    J[I/O: Connection Pooling]
-    K[I/O: Data Compression]
-    L[I/O: SSD Storage]
+    subgraph "I/O Optimization"
+        I[💾 Buffered Writing<br/>Reduce disk ops]
+        J[🔗 Connection Pooling<br/>Reuse connections]
+        K[📦 Data Compression<br/>Efficient storage]
+        L[⚡ SSD Storage<br/>Fast access times]
+    end
     
     A --> E
     B --> F
@@ -1400,6 +1406,8 @@ graph LR
     F --> J
     G --> K
     H --> L
+    
+    
 ```
 
 ---
@@ -1409,35 +1417,14 @@ graph LR
 ### 🛠️ Planned Improvements
 
 ```mermaid
-timeline
-    title System Evolution Timeline
-    
-    section Phase 1: Current State
-        Basic Extraction    : Multi-account support
-                           : CSV output format
-                           : Manual organization
-    
-    section Phase 2: Enhanced Automation
-        Smart Scheduling    : Automatic retry logic
-                           : Intelligent rate limiting
-                           : Dynamic account rotation
-    
-    section Phase 3: Advanced Analytics
-        Data Insights      : Sentiment analysis
-                          : Engagement metrics
-                          : Trend identification
-    
-    section Phase 4: Enterprise Features
-        Cloud Integration  : AWS/Azure deployment
-                          : API endpoints
-                          : Real-time dashboards
-    
-    section Phase 5: AI Integration
-        Machine Learning   : Content categorization
-                          : Spam detection
-                          : Predictive analytics
+graph LR
+    P1[Phase 1<br/>Current State] --> 
+    P2[Phase 2<br/>Enhanced Automation] --> 
+    P3[Phase 3<br/>Advanced Analytics] --> 
+    P4[Phase 4<br/>Enterprise Features] --> 
+    P5[Phase 5<br/>AI Integration]
+    class P1,P2,P3,P4,P5 phase;
 ```
-
 ### 🎯 Architecture Extensions
 
 ```mermaid
