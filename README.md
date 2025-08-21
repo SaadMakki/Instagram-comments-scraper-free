@@ -19,13 +19,7 @@ graph TD
     E --> F[📁 organize.py]
     F --> G[🗂️ Organized Folders Structure]
     
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style C fill:#e8f5e8
-    style D fill:#fff3e0
-    style E fill:#fce4ec
-    style F fill:#f1f8e9
-    style G fill:#e3f2fd
+    
 ```
 
 ## 📂 Project Structure
@@ -241,11 +235,6 @@ organized_folder/
 
 This tool is for educational and research purposes only. Please comply with Instagram's Terms of Service and respect user privacy.
 
----
-
-## 🤝 Contributing
-
-Feel free to submit issues and enhancement requests!
-
----
-
+----
+Author: Saad Makki\
+Email: saadmakki116@gmail.com
